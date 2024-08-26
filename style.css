@@ -1,0 +1,78 @@
+/* Hide arrows for input type Number -- Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide arrows for input type Number -- Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(231, 232, 233, 0.89);
+}
+
+.container {
+    width: 30%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 16px;
+    display: flex;
+}
+
+header img {
+    width: 80px;
+}
+
+header h1 {
+    padding: 16px;
+    text-align: center;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+    padding-top: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+}
+
+form {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
